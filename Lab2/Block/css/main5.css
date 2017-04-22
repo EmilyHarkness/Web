@@ -1,0 +1,93 @@
+html, body {
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.main-container{
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+	flex-direction: column;
+}
+
+.container {
+	display: flex;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+}
+
+.left-block {
+	font-size: 20px;
+	color: black;
+	background-color: blue;
+	width: 150px;
+	flex-shrink: 0;
+	border: 2px solid black;
+}
+
+.left-block:hover {
+	background-color: CCCCFF;
+}
+
+.top-down-block {
+	display: flex;
+	justify-content: space-between;
+	font-size: 24px;
+	color: black;
+	background-color: yellow;
+	height: 100px;
+	border: 2px solid black;
+}
+
+.top-down-block:hover {
+	background-color: CCCCFF;
+}
+
+.in-top-block{
+	background-color: white;
+	width: 300px;
+	height: 60px;
+	margin: 20px;
+	border: 2px solid black;
+}
+
+.in-top-block:hover {
+	background-color: CCCCFF;
+}
+
+.top-block {
+	margin: 10;
+	background-color: pink;
+	height: 60px;
+	border: 2px solid black;
+}
+
+.top-block:hover {
+	background-color: CCCCFF;
+}
+
+.main-block {
+	margin: 10;
+	background-color: white;
+	width: 100%;
+	border: 2px solid black;
+}
+
+.main-block:hover {
+	background-color: CCCCFF;
+}
+
+.right-block {
+	margin: 10;
+	background-color: blue;
+	width: 200px;
+	border: 2px solid black;
+}
+
+.right-block:hover {
+	background-color: CCCCFF;
+}
